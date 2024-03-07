@@ -1,0 +1,1085 @@
+{
+        "_id" : ObjectId("65cb182508443ab155cd35ad"),
+        "bills" : [
+                {
+                        "attachments" : [
+                                {
+                                        "_id" : ObjectId("65cb182f08443ab155cd35cd"),
+                                        "key" : "paydd/5fa248be9bbd94fce453a795/bills/47e56791-d152-4673-99a3-7f53c80cbc08.eml",
+                                        "createdAt" : ISODate("2024-02-13T07:20:15Z"),
+                                        "updatedAt" : ISODate("2024-02-13T07:20:15Z"),
+                                        "__v" : 0,
+                                        "url" : "https://digiex-dialogsl.msappproxy.net/api/common/download/paydd/5fa248be9bbd94fce453a795/bills/47e56791-d152-4673-99a3-7f53c80cbc08.eml"
+                                },
+                                {
+                                        "_id" : ObjectId("65cb182f08443ab155cd35d0"),
+                                        "key" : "paydd/5fa248be9bbd94fce453a795/bills/fd3a8cee-4231-40fa-b888-04ac44ba6ad5.pdf",
+                                        "createdAt" : ISODate("2024-02-13T07:20:15Z"),
+                                        "updatedAt" : ISODate("2024-02-13T07:20:15Z"),
+                                        "__v" : 0,
+                                        "url" : "https://digiex-dialogsl.msappproxy.net/api/common/download/paydd/5fa248be9bbd94fce453a795/bills/fd3a8cee-4231-40fa-b888-04ac44ba6ad5.pdf"
+                                },
+                                {
+                                        "_id" : ObjectId("65cb182f08443ab155cd35d3"),
+                                        "key" : "paydd/5fa248be9bbd94fce453a795/bills/b3e06686-524d-4b07-b551-956b30104318.pdf",
+                                        "createdAt" : ISODate("2024-02-13T07:20:15Z"),
+                                        "updatedAt" : ISODate("2024-02-13T07:20:15Z"),
+                                        "__v" : 0,
+                                        "url" : "https://digiex-dialogsl.msappproxy.net/api/common/download/paydd/5fa248be9bbd94fce453a795/bills/b3e06686-524d-4b07-b551-956b30104318.pdf"
+                                }
+                        ],
+                        "has_rejected" : false,
+                        "is_migrated" : false,
+                        "isDebit" : true,
+                        "_id" : ObjectId("65cb183008443ab155cd35d9"),
+                        "number" : "0000",
+                        "date" : ISODate("2024-01-30T07:18:22.125Z"),
+                        "value" : 7760,
+                        "billRef" : "20240213000036",
+                        "createdAt" : ISODate("2024-02-13T07:20:16Z"),
+                        "updatedAt" : ISODate("2024-02-13T07:20:16Z"),
+                        "__v" : 0
+                }
+        ],
+        "slips" : [ ],
+        "settled" : false,
+        "alternateApproverEnabled" : false,
+        "isPettyCash" : true,
+        "reimbursement" : [ ],
+        "auditLogs" : {
+                "activityLogs" : [ ],
+                "sapLogs" : [ ]
+        },
+        "sapStatus" : false,
+        "paymentVoucherNo" : null,
+        "paymentVoucherDate" : null,
+        "revision" : 1,
+        "workFlow" : {
+                "currentRole" : null,
+                "currentDepartment" : null,
+                "currentUser" : null,
+                "currentStatus" : "PAID",
+                "level" : 2,
+                "createdAt" : ISODate("2024-02-13T07:56:15.437Z"),
+                "overView" : {
+                        "PENDING" : [ ],
+                        "APPROVED" : [
+                                {
+                                        "status" : "APPROVED",
+                                        "level" : 1,
+                                        "userDefined" : true,
+                                        "role" : {
+                                                "_id" : ObjectId("5fa248789bbd94fce4538f5d"),
+                                                "name" : "Specialist",
+                                                "code" : "specialist",
+                                                "widgets" : [ ],
+                                                "roleType" : null,
+                                                "specialRole" : false
+                                        },
+                                        "department" : {
+                                                "users" : [ ],
+                                                "_id" : ObjectId("5fa2487a9bbd94fce453900b"),
+                                                "name" : "Retail Operations",
+                                                "code" : "Retail Operations",
+                                                "createdAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                "updatedAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                "__v" : 0
+                                        },
+                                        "user" : {
+                                                "_id" : ObjectId("5fa248b79bbd94fce453a3ad"),
+                                                "name" : "Jayaneetha Liyanage",
+                                                "code" : "99437",
+                                                "roles" : [
+                                                        {
+                                                                "_id" : ObjectId("5fa248789bbd94fce4538f59"),
+                                                                "name" : "Petty Cashier",
+                                                                "code" : "petty_cashier",
+                                                                "widgets" : [
+                                                                        ObjectId("6133d8703471647a3d0d939b"),
+                                                                        ObjectId("6133d8703471647a3d0d939f")
+                                                                ],
+                                                                "roleType" : null,
+                                                                "specialRole" : false
+                                                        },
+                                                        {
+                                                                "_id" : ObjectId("5fa248789bbd94fce4538f5d"),
+                                                                "name" : "Specialist",
+                                                                "code" : "specialist",
+                                                                "widgets" : [ ],
+                                                                "roleType" : null,
+                                                                "specialRole" : false
+                                                        }
+                                                ],
+                                                "email" : "jayaneetha.liyanage@dbs.dialog.lk"
+                                        },
+                                        "createdAt" : ISODate("2024-02-13T07:20:15.895Z"),
+                                        "updatedAt" : ISODate("2024-02-13T07:56:15.437Z")
+                                },
+                                {
+                                        "role" : {
+                                                "approvalLimit" : 0,
+                                                "roleGroup" : [ ],
+                                                "payDDGroupIds" : [
+                                                        ""
+                                                ],
+                                                "widgets" : [
+                                                        ObjectId("6133d8703471647a3d0d939b"),
+                                                        ObjectId("6133d8703471647a3d0d939f")
+                                                ],
+                                                "_id" : ObjectId("5fa248789bbd94fce4538f59"),
+                                                "name" : "Petty Cashier",
+                                                "code" : "petty_cashier",
+                                                "payDDGroupName" : "",
+                                                "createdAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                "updatedAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                "__v" : 0
+                                        },
+                                        "status" : "APPROVED",
+                                        "level" : 2,
+                                        "userDefined" : false,
+                                        "department" : {
+                                                "users" : [ ],
+                                                "_id" : ObjectId("5fa2487a9bbd94fce453900b"),
+                                                "name" : "Retail Operations",
+                                                "code" : "Retail Operations",
+                                                "createdAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                "updatedAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                "__v" : 0
+                                        },
+                                        "createdAt" : ISODate("2024-02-13T07:56:15.437Z"),
+                                        "updatedAt" : ISODate("2024-02-13T07:59:34.785Z"),
+                                        "user" : {
+                                                "mobile" : null,
+                                                "digimedCode" : "2023_05_25_11_00_04d8cmqw0f",
+                                                "deviceTokens" : [ ],
+                                                "jwtTokens" : [
+                                                        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmEyNDhiNzliYmQ5NGZjZTQ1M2EzYWQiLCJjb2RlIjoiOTk0MzciLCJvaWQiOiJiOGU5M2NiNC00N2UzLTRmM2EtOGJkYy0xOGIwYjdiMjgzNTIiLCJkaWdpbWVkQ29kZSI6IjIwMjNfMDVfMjVfMTFfMDBfMDRkOGNtcXcwZiIsInBhc3N3b3JkUmVzZXQiOmZhbHNlLCJ0ZW5hbnQiOiJkaWFsb2ciLCJpYXQiOjE3MDc4MDI1MTksImV4cCI6MTcwNzg4ODkxOX0._6eEDtpexPTLqjSGzoxEy0WrOkU7S-LWJbBhTQ2VnKs"
+                                                ],
+                                                "roles" : [
+                                                        {
+                                                                "approvalLimit" : 0,
+                                                                "roleGroup" : [ ],
+                                                                "payDDGroupIds" : [
+                                                                        ""
+                                                                ],
+                                                                "widgets" : [
+                                                                        ObjectId("6133d8703471647a3d0d939b"),
+                                                                        ObjectId("6133d8703471647a3d0d939f")
+                                                                ],
+                                                                "specialRole" : false,
+                                                                "_id" : ObjectId("5fa248789bbd94fce4538f59"),
+                                                                "name" : "Petty Cashier",
+                                                                "code" : "petty_cashier",
+                                                                "payDDGroupName" : "",
+                                                                "createdAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                "updatedAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                "__v" : 0
+                                                        },
+                                                        {
+                                                                "approvalLimit" : 100000,
+                                                                "roleGroup" : [ ],
+                                                                "payDDGroupIds" : [
+                                                                        "eae0cd8d-565d-4a8f-8405-b351c55acd86",
+                                                                        "e3079602-0cf4-4279-a87c-78e4d34cabaa",
+                                                                        "66cdf962-f861-477d-9a7c-19fe9206b07a"
+                                                                ],
+                                                                "widgets" : [ ],
+                                                                "specialRole" : false,
+                                                                "_id" : ObjectId("5fa248789bbd94fce4538f5d"),
+                                                                "name" : "Specialist",
+                                                                "code" : "specialist",
+                                                                "payDDGroupName" : "Group - Specialists",
+                                                                "createdAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                "updatedAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                "__v" : 0
+                                                        }
+                                                ],
+                                                "active" : true,
+                                                "initialized" : true,
+                                                "passwordResetRequested" : false,
+                                                "failedAttempts" : 0,
+                                                "otpAttempts" : 0,
+                                                "locked" : false,
+                                                "digiExEnabled" : true,
+                                                "digimedEnabled" : true,
+                                                "isMigrate" : false,
+                                                "_id" : ObjectId("5fa248b79bbd94fce453a3ad"),
+                                                "oid" : "b8e93cb4-47e3-4f3a-8bdc-18b0b7b28352",
+                                                "code" : "99437",
+                                                "name" : "Jayaneetha Liyanage",
+                                                "email" : "jayaneetha.liyanage@dbs.dialog.lk",
+                                                "jobTitle" : "Customer Experience Centre Manager",
+                                                "division" : "Retail Operations",
+                                                "department" : {
+                                                        "users" : [ ],
+                                                        "_id" : ObjectId("5fa2487a9bbd94fce453900b"),
+                                                        "name" : "Retail Operations",
+                                                        "code" : "Retail Operations",
+                                                        "createdAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                        "updatedAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                        "__v" : 0
+                                                },
+                                                "createdAt" : ISODate("2020-11-04T06:22:47.991Z"),
+                                                "updatedAt" : ISODate("2024-02-13T05:35:19Z"),
+                                                "__v" : 247,
+                                                "loginMethod" : {
+                                                        "active" : true,
+                                                        "_id" : ObjectId("5ffc55ef24368c18b464693a"),
+                                                        "name" : "Password Login",
+                                                        "code" : "password"
+                                                },
+                                                "syncedDate" : ISODate("2024-02-12T20:37:30.569Z")
+                                        },
+                                        "pettyCash" : {
+                                                "department" : [
+                                                        {
+                                                                "users" : [ ],
+                                                                "_id" : ObjectId("5fa2487a9bbd94fce453900b"),
+                                                                "name" : "Retail Operations",
+                                                                "code" : "Retail Operations",
+                                                                "createdAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                                "updatedAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                                "__v" : 0
+                                                        }
+                                                ],
+                                                "supervisors" : [
+                                                        {
+                                                                "mobile" : null,
+                                                                "digimedCode" : "2023_01_04_18_45_032qn1y1cu",
+                                                                "deviceTokens" : [
+                                                                        "faGQRrPAQmCLVbUpxzykzd:APA91bEPGrwjbW4n9NyhKX3LHwBKUEz5rsFqtY5WrM6WWw-5RpTuzFQdWUXpKSNsGzVY1oDoip0evdkpirTRvpPIQl-tSS9Qm1X0nGbRBUNM-K7CoTGNhba2I2icyqOrr3dpW47Om8z5"
+                                                                ],
+                                                                "roles" : [
+                                                                        {
+                                                                                "approvalLimit" : 0,
+                                                                                "roleGroup" : [ ],
+                                                                                "payDDGroupIds" : [
+                                                                                        ""
+                                                                                ],
+                                                                                "widgets" : [
+                                                                                        ObjectId("6133d8703471647a3d0d939c"),
+                                                                                        ObjectId("6133d8703471647a3d0d939f")
+                                                                                ],
+                                                                                "specialRole" : false,
+                                                                                "_id" : ObjectId("5fa248789bbd94fce4538f5a"),
+                                                                                "name" : "Petty Cash Approver",
+                                                                                "code" : "petty_cash_approver",
+                                                                                "payDDGroupName" : "",
+                                                                                "createdAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                                "updatedAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                                "__v" : 0
+                                                                        },
+                                                                        {
+                                                                                "approvalLimit" : 200000,
+                                                                                "roleGroup" : [ ],
+                                                                                "payDDGroupIds" : [
+                                                                                        "0e70342c-8b25-45d8-b6c5-10392c4ce759",
+                                                                                        "4878f14e-bf06-49f1-8e52-c42ce905d5a3",
+                                                                                        "2c29a49e-0628-4aac-b15c-507dbf092e0d"
+                                                                                ],
+                                                                                "widgets" : [ ],
+                                                                                "specialRole" : false,
+                                                                                "_id" : ObjectId("5fa248789bbd94fce4538f5e"),
+                                                                                "name" : "Assistant Manager",
+                                                                                "code" : "assistant_manager",
+                                                                                "payDDGroupName" : "Group - Assistant Managers",
+                                                                                "createdAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                                "updatedAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                                "__v" : 0
+                                                                        },
+                                                                        {
+                                                                                "approvalLimit" : 100000,
+                                                                                "roleGroup" : [ ],
+                                                                                "payDDGroupIds" : [
+                                                                                        "eae0cd8d-565d-4a8f-8405-b351c55acd86",
+                                                                                        "e3079602-0cf4-4279-a87c-78e4d34cabaa",
+                                                                                        "66cdf962-f861-477d-9a7c-19fe9206b07a"
+                                                                                ],
+                                                                                "widgets" : [ ],
+                                                                                "specialRole" : false,
+                                                                                "_id" : ObjectId("5fa248789bbd94fce4538f5d"),
+                                                                                "name" : "Specialist",
+                                                                                "code" : "specialist",
+                                                                                "payDDGroupName" : "Group - Specialists",
+                                                                                "createdAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                                "updatedAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                                "__v" : 0
+                                                                        }
+                                                                ],
+                                                                "active" : true,
+                                                                "initialized" : true,
+                                                                "passwordResetRequested" : false,
+                                                                "failedAttempts" : 0,
+                                                                "otpAttempts" : 0,
+                                                                "locked" : false,
+                                                                "digiExEnabled" : true,
+                                                                "digimedEnabled" : true,
+                                                                "isMigrate" : false,
+                                                                "_id" : ObjectId("6426fc4e6e83a47c035bad3a"),
+                                                                "oid" : "b4b0ce0f-3454-40cd-81b6-952092eb0165",
+                                                                "code" : "99433",
+                                                                "name" : "Rasindu Kudahetti",
+                                                                "email" : "rasindu.kudahetti@dbs.dialog.lk",
+                                                                "jobTitle" : "Regional Manager",
+                                                                "division" : "Retail Operations",
+                                                                "createdAt" : ISODate("2023-03-31T15:29:18Z"),
+                                                                "updatedAt" : ISODate("2024-02-13T07:20:15Z"),
+                                                                "__v" : 60,
+                                                                "syncedDate" : ISODate("2024-02-12T20:31:15.536Z"),
+                                                                "department" : {
+                                                                        "users" : [ ],
+                                                                        "_id" : ObjectId("5fa2487a9bbd94fce453900b"),
+                                                                        "name" : "Retail Operations",
+                                                                        "code" : "Retail Operations",
+                                                                        "createdAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                                        "updatedAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                                        "__v" : 0
+                                                                },
+                                                                "loginMethod" : {
+                                                                        "active" : true,
+                                                                        "_id" : ObjectId("5ffc55ef24368c18b464693a"),
+                                                                        "name" : "Password Login",
+                                                                        "code" : "password"
+                                                                }
+                                                        }
+                                                ],
+                                                "supervisorsMigrated" : false,
+                                                "_id" : ObjectId("636ca9b415fd6a55f0ac52ec"),
+                                                "entity" : {
+                                                        "_id" : ObjectId("5fa248789bbd94fce4538f48"),
+                                                        "name" : "DAP",
+                                                        "code" : "LK10",
+                                                        "createdAt" : ISODate("2020-11-04T06:21:44.007Z"),
+                                                        "updatedAt" : ISODate("2020-11-04T06:21:44.007Z"),
+                                                        "__v" : 0,
+                                                        "transactionNo" : "23"
+                                                },
+                                                "journal" : "C027",
+                                                "floatAmount" : 10000,
+                                                "glCode" : "32411029",
+                                                "vendor" : {
+                                                        "active" : true,
+                                                        "category" : [ ],
+                                                        "entities" : [
+                                                                {
+                                                                        "_id" : "5fa248789bbd94fce4538f48",
+                                                                        "name" : "DAP",
+                                                                        "code" : "LK10",
+                                                                        "createdAt" : "2020-11-04T06:21:44.007Z",
+                                                                        "updatedAt" : "2020-11-04T06:21:44.007Z",
+                                                                        "__v" : 0,
+                                                                        "transactionNo" : "23"
+                                                                }
+                                                        ],
+                                                        "_id" : ObjectId("5faa34cefac65f3ff4602879"),
+                                                        "code" : "0000003549",
+                                                        "name" : "Jayaneetha B Liyanage",
+                                                        "paymentTerm" : {
+                                                                "active" : true,
+                                                                "_id" : ObjectId("5fa2487a9bbd94fce4538ff7"),
+                                                                "code" : "0001",
+                                                                "name" : "Payable immediately Due net",
+                                                                "__v" : 0
+                                                        },
+                                                        "id" : "0000003549",
+                                                        "__v" : 1
+                                                },
+                                                "cashier" : {
+                                                        "mobile" : null,
+                                                        "digimedCode" : "2023_05_25_11_00_04d8cmqw0f",
+                                                        "deviceTokens" : [ ],
+                                                        "roles" : [
+                                                                {
+                                                                        "approvalLimit" : 0,
+                                                                        "roleGroup" : [ ],
+                                                                        "payDDGroupIds" : [
+                                                                                ""
+                                                                        ],
+                                                                        "widgets" : [
+                                                                                ObjectId("6133d8703471647a3d0d939b"),
+                                                                                ObjectId("6133d8703471647a3d0d939f")
+                                                                        ],
+                                                                        "specialRole" : false,
+                                                                        "_id" : ObjectId("5fa248789bbd94fce4538f59"),
+                                                                        "name" : "Petty Cashier",
+                                                                        "code" : "petty_cashier",
+                                                                        "payDDGroupName" : "",
+                                                                        "createdAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                        "updatedAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                        "__v" : 0
+                                                                },
+                                                                {
+                                                                        "approvalLimit" : 100000,
+                                                                        "roleGroup" : [ ],
+                                                                        "payDDGroupIds" : [
+                                                                                "eae0cd8d-565d-4a8f-8405-b351c55acd86",
+                                                                                "e3079602-0cf4-4279-a87c-78e4d34cabaa",
+                                                                                "66cdf962-f861-477d-9a7c-19fe9206b07a"
+                                                                        ],
+                                                                        "widgets" : [ ],
+                                                                        "specialRole" : false,
+                                                                        "_id" : ObjectId("5fa248789bbd94fce4538f5d"),
+                                                                        "name" : "Specialist",
+                                                                        "code" : "specialist",
+                                                                        "payDDGroupName" : "Group - Specialists",
+                                                                        "createdAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                        "updatedAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                        "__v" : 0
+                                                                }
+                                                        ],
+                                                        "active" : true,
+                                                        "initialized" : true,
+                                                        "passwordResetRequested" : false,
+                                                        "failedAttempts" : 0,
+                                                        "otpAttempts" : 0,
+                                                        "locked" : false,
+                                                        "digiExEnabled" : true,
+                                                        "digimedEnabled" : true,
+                                                        "isMigrate" : false,
+                                                        "_id" : ObjectId("5fa248b79bbd94fce453a3ad"),
+                                                        "oid" : "b8e93cb4-47e3-4f3a-8bdc-18b0b7b28352",
+                                                        "code" : "99437",
+                                                        "name" : "Jayaneetha Liyanage",
+                                                        "email" : "jayaneetha.liyanage@dbs.dialog.lk",
+                                                        "jobTitle" : "Customer Experience Centre Manager",
+                                                        "division" : "Retail Operations",
+                                                        "department" : {
+                                                                "users" : [ ],
+                                                                "_id" : ObjectId("5fa2487a9bbd94fce453900b"),
+                                                                "name" : "Retail Operations",
+                                                                "code" : "Retail Operations",
+                                                                "createdAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                                "updatedAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                                "__v" : 0
+                                                        },
+                                                        "createdAt" : ISODate("2020-11-04T06:22:47.991Z"),
+                                                        "updatedAt" : ISODate("2024-02-13T05:35:19Z"),
+                                                        "__v" : 247,
+                                                        "loginMethod" : {
+                                                                "active" : true,
+                                                                "_id" : ObjectId("5ffc55ef24368c18b464693a"),
+                                                                "name" : "Password Login",
+                                                                "code" : "password"
+                                                        },
+                                                        "syncedDate" : ISODate("2024-02-12T20:37:30.569Z")
+                                                },
+                                                "createdAt" : ISODate("2022-11-10T07:35:16Z"),
+                                                "updatedAt" : ISODate("2024-01-30T09:48:10Z"),
+                                                "__v" : 0
+                                        }
+                                },
+                                {
+                                        "role" : {
+                                                "approvalLimit" : 0,
+                                                "roleGroup" : [ ],
+                                                "payDDGroupIds" : [
+                                                        ""
+                                                ],
+                                                "widgets" : [
+                                                        ObjectId("6133d8703471647a3d0d939c"),
+                                                        ObjectId("6133d8703471647a3d0d939f")
+                                                ],
+                                                "_id" : ObjectId("5fa248789bbd94fce4538f5a"),
+                                                "name" : "Petty Cash Approver",
+                                                "code" : "petty_cash_approver",
+                                                "payDDGroupName" : "",
+                                                "createdAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                "updatedAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                "__v" : 0
+                                        },
+                                        "status" : "APPROVED",
+                                        "level" : 3,
+                                        "userDefined" : false,
+                                        "department" : {
+                                                "users" : [ ],
+                                                "_id" : ObjectId("5fa2487a9bbd94fce453900b"),
+                                                "name" : "Retail Operations",
+                                                "code" : "Retail Operations",
+                                                "createdAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                "updatedAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                "__v" : 0
+                                        },
+                                        "user" : {
+                                                "mobile" : null,
+                                                "digimedCode" : "2023_01_04_18_45_032qn1y1cu",
+                                                "deviceTokens" : [
+                                                        "faGQRrPAQmCLVbUpxzykzd:APA91bEPGrwjbW4n9NyhKX3LHwBKUEz5rsFqtY5WrM6WWw-5RpTuzFQdWUXpKSNsGzVY1oDoip0evdkpirTRvpPIQl-tSS9Qm1X0nGbRBUNM-K7CoTGNhba2I2icyqOrr3dpW47Om8z5"
+                                                ],
+                                                "jwtTokens" : [
+                                                        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDI2ZmM0ZTZlODNhNDdjMDM1YmFkM2EiLCJjb2RlIjoiOTk0MzMiLCJvaWQiOiJiNGIwY2UwZi0zNDU0LTQwY2QtODFiNi05NTIwOTJlYjAxNjUiLCJkaWdpbWVkQ29kZSI6IjIwMjNfMDFfMDRfMThfNDVfMDMycW4xeTFjdSIsInBhc3N3b3JkUmVzZXQiOmZhbHNlLCJ0ZW5hbnQiOiJkaWFsb2ciLCJpYXQiOjE3MDc4MTM1MTQsImV4cCI6MTcwNzg5OTkxNH0.hvoje2dceFZStb8zoiJGH8J7pV_5wl6ypme6RFRi9JA"
+                                                ],
+                                                "roles" : [
+                                                        {
+                                                                "approvalLimit" : 0,
+                                                                "roleGroup" : [ ],
+                                                                "payDDGroupIds" : [
+                                                                        ""
+                                                                ],
+                                                                "widgets" : [
+                                                                        ObjectId("6133d8703471647a3d0d939c"),
+                                                                        ObjectId("6133d8703471647a3d0d939f")
+                                                                ],
+                                                                "specialRole" : false,
+                                                                "_id" : ObjectId("5fa248789bbd94fce4538f5a"),
+                                                                "name" : "Petty Cash Approver",
+                                                                "code" : "petty_cash_approver",
+                                                                "payDDGroupName" : "",
+                                                                "createdAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                "updatedAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                "__v" : 0
+                                                        },
+                                                        {
+                                                                "approvalLimit" : 200000,
+                                                                "roleGroup" : [ ],
+                                                                "payDDGroupIds" : [
+                                                                        "0e70342c-8b25-45d8-b6c5-10392c4ce759",
+                                                                        "4878f14e-bf06-49f1-8e52-c42ce905d5a3",
+                                                                        "2c29a49e-0628-4aac-b15c-507dbf092e0d"
+                                                                ],
+                                                                "widgets" : [ ],
+                                                                "specialRole" : false,
+                                                                "_id" : ObjectId("5fa248789bbd94fce4538f5e"),
+                                                                "name" : "Assistant Manager",
+                                                                "code" : "assistant_manager",
+                                                                "payDDGroupName" : "Group - Assistant Managers",
+                                                                "createdAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                "updatedAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                "__v" : 0
+                                                        },
+                                                        {
+                                                                "approvalLimit" : 100000,
+                                                                "roleGroup" : [ ],
+                                                                "payDDGroupIds" : [
+                                                                        "eae0cd8d-565d-4a8f-8405-b351c55acd86",
+                                                                        "e3079602-0cf4-4279-a87c-78e4d34cabaa",
+                                                                        "66cdf962-f861-477d-9a7c-19fe9206b07a"
+                                                                ],
+                                                                "widgets" : [ ],
+                                                                "specialRole" : false,
+                                                                "_id" : ObjectId("5fa248789bbd94fce4538f5d"),
+                                                                "name" : "Specialist",
+                                                                "code" : "specialist",
+                                                                "payDDGroupName" : "Group - Specialists",
+                                                                "createdAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                "updatedAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                "__v" : 0
+                                                        }
+                                                ],
+                                                "active" : true,
+                                                "initialized" : true,
+                                                "passwordResetRequested" : false,
+                                                "failedAttempts" : 0,
+                                                "otpAttempts" : 0,
+                                                "locked" : false,
+                                                "digiExEnabled" : true,
+                                                "digimedEnabled" : true,
+                                                "isMigrate" : false,
+                                                "_id" : ObjectId("6426fc4e6e83a47c035bad3a"),
+                                                "oid" : "b4b0ce0f-3454-40cd-81b6-952092eb0165",
+                                                "code" : "99433",
+                                                "name" : "Rasindu Kudahetti",
+                                                "email" : "rasindu.kudahetti@dbs.dialog.lk",
+                                                "jobTitle" : "Regional Manager",
+                                                "division" : "Retail Operations",
+                                                "createdAt" : ISODate("2023-03-31T15:29:18Z"),
+                                                "updatedAt" : ISODate("2024-02-13T08:38:34Z"),
+                                                "__v" : 61,
+                                                "syncedDate" : ISODate("2024-02-12T20:31:15.536Z"),
+                                                "department" : {
+                                                        "users" : [ ],
+                                                        "_id" : ObjectId("5fa2487a9bbd94fce453900b"),
+                                                        "name" : "Retail Operations",
+                                                        "code" : "Retail Operations",
+                                                        "createdAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                        "updatedAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                        "__v" : 0
+                                                },
+                                                "loginMethod" : {
+                                                        "active" : true,
+                                                        "_id" : ObjectId("5ffc55ef24368c18b464693a"),
+                                                        "name" : "Password Login",
+                                                        "code" : "password"
+                                                }
+                                        },
+                                        "pettyCash" : {
+                                                "department" : [
+                                                        {
+                                                                "users" : [ ],
+                                                                "_id" : ObjectId("5fa2487a9bbd94fce453900b"),
+                                                                "name" : "Retail Operations",
+                                                                "code" : "Retail Operations",
+                                                                "createdAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                                "updatedAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                                "__v" : 0
+                                                        }
+                                                ],
+                                                "supervisors" : [
+                                                        {
+                                                                "mobile" : null,
+                                                                "digimedCode" : "2023_01_04_18_45_032qn1y1cu",
+                                                                "deviceTokens" : [
+                                                                        "faGQRrPAQmCLVbUpxzykzd:APA91bEPGrwjbW4n9NyhKX3LHwBKUEz5rsFqtY5WrM6WWw-5RpTuzFQdWUXpKSNsGzVY1oDoip0evdkpirTRvpPIQl-tSS9Qm1X0nGbRBUNM-K7CoTGNhba2I2icyqOrr3dpW47Om8z5"
+                                                                ],
+                                                                "roles" : [
+                                                                        {
+                                                                                "approvalLimit" : 0,
+                                                                                "roleGroup" : [ ],
+                                                                                "payDDGroupIds" : [
+                                                                                        ""
+                                                                                ],
+                                                                                "widgets" : [
+                                                                                        ObjectId("6133d8703471647a3d0d939c"),
+                                                                                        ObjectId("6133d8703471647a3d0d939f")
+                                                                                ],
+                                                                                "specialRole" : false,
+                                                                                "_id" : ObjectId("5fa248789bbd94fce4538f5a"),
+                                                                                "name" : "Petty Cash Approver",
+                                                                                "code" : "petty_cash_approver",
+                                                                                "payDDGroupName" : "",
+                                                                                "createdAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                                "updatedAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                                "__v" : 0
+                                                                        },
+                                                                        {
+                                                                                "approvalLimit" : 200000,
+                                                                                "roleGroup" : [ ],
+                                                                                "payDDGroupIds" : [
+                                                                                        "0e70342c-8b25-45d8-b6c5-10392c4ce759",
+                                                                                        "4878f14e-bf06-49f1-8e52-c42ce905d5a3",
+                                                                                        "2c29a49e-0628-4aac-b15c-507dbf092e0d"
+                                                                                ],
+                                                                                "widgets" : [ ],
+                                                                                "specialRole" : false,
+                                                                                "_id" : ObjectId("5fa248789bbd94fce4538f5e"),
+                                                                                "name" : "Assistant Manager",
+                                                                                "code" : "assistant_manager",
+                                                                                "payDDGroupName" : "Group - Assistant Managers",
+                                                                                "createdAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                                "updatedAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                                "__v" : 0
+                                                                        },
+                                                                        {
+                                                                                "approvalLimit" : 100000,
+                                                                                "roleGroup" : [ ],
+                                                                                "payDDGroupIds" : [
+                                                                                        "eae0cd8d-565d-4a8f-8405-b351c55acd86",
+                                                                                        "e3079602-0cf4-4279-a87c-78e4d34cabaa",
+                                                                                        "66cdf962-f861-477d-9a7c-19fe9206b07a"
+                                                                                ],
+                                                                                "widgets" : [ ],
+                                                                                "specialRole" : false,
+                                                                                "_id" : ObjectId("5fa248789bbd94fce4538f5d"),
+                                                                                "name" : "Specialist",
+                                                                                "code" : "specialist",
+                                                                                "payDDGroupName" : "Group - Specialists",
+                                                                                "createdAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                                "updatedAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                                "__v" : 0
+                                                                        }
+                                                                ],
+                                                                "active" : true,
+                                                                "initialized" : true,
+                                                                "passwordResetRequested" : false,
+                                                                "failedAttempts" : 0,
+                                                                "otpAttempts" : 0,
+                                                                "locked" : false,
+                                                                "digiExEnabled" : true,
+                                                                "digimedEnabled" : true,
+                                                                "isMigrate" : false,
+                                                                "_id" : ObjectId("6426fc4e6e83a47c035bad3a"),
+                                                                "oid" : "b4b0ce0f-3454-40cd-81b6-952092eb0165",
+                                                                "code" : "99433",
+                                                                "name" : "Rasindu Kudahetti",
+                                                                "email" : "rasindu.kudahetti@dbs.dialog.lk",
+                                                                "jobTitle" : "Regional Manager",
+                                                                "division" : "Retail Operations",
+                                                                "createdAt" : ISODate("2023-03-31T15:29:18Z"),
+                                                                "updatedAt" : ISODate("2024-02-13T08:38:34Z"),
+                                                                "__v" : 61,
+                                                                "syncedDate" : ISODate("2024-02-12T20:31:15.536Z"),
+                                                                "department" : {
+                                                                        "users" : [ ],
+                                                                        "_id" : ObjectId("5fa2487a9bbd94fce453900b"),
+                                                                        "name" : "Retail Operations",
+                                                                        "code" : "Retail Operations",
+                                                                        "createdAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                                        "updatedAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                                        "__v" : 0
+                                                                },
+                                                                "loginMethod" : {
+                                                                        "active" : true,
+                                                                        "_id" : ObjectId("5ffc55ef24368c18b464693a"),
+                                                                        "name" : "Password Login",
+                                                                        "code" : "password"
+                                                                }
+                                                        }
+                                                ],
+                                                "supervisorsMigrated" : false,
+                                                "_id" : ObjectId("636ca9b415fd6a55f0ac52ec"),
+                                                "entity" : {
+                                                        "_id" : ObjectId("5fa248789bbd94fce4538f48"),
+                                                        "name" : "DAP",
+                                                        "code" : "LK10",
+                                                        "createdAt" : ISODate("2020-11-04T06:21:44.007Z"),
+                                                        "updatedAt" : ISODate("2020-11-04T06:21:44.007Z"),
+                                                        "__v" : 0,
+                                                        "transactionNo" : "23"
+                                                },
+                                                "journal" : "C027",
+                                                "floatAmount" : 10000,
+                                                "glCode" : "32411029",
+                                                "vendor" : {
+                                                        "active" : true,
+                                                        "category" : [ ],
+                                                        "entities" : [
+                                                                {
+                                                                        "_id" : "5fa248789bbd94fce4538f48",
+                                                                        "name" : "DAP",
+                                                                        "code" : "LK10",
+                                                                        "createdAt" : "2020-11-04T06:21:44.007Z",
+                                                                        "updatedAt" : "2020-11-04T06:21:44.007Z",
+                                                                        "__v" : 0,
+                                                                        "transactionNo" : "23"
+                                                                }
+                                                        ],
+                                                        "_id" : ObjectId("5faa34cefac65f3ff4602879"),
+                                                        "code" : "0000003549",
+                                                        "name" : "Jayaneetha B Liyanage",
+                                                        "paymentTerm" : {
+                                                                "active" : true,
+                                                                "_id" : ObjectId("5fa2487a9bbd94fce4538ff7"),
+                                                                "code" : "0001",
+                                                                "name" : "Payable immediately Due net",
+                                                                "__v" : 0
+                                                        },
+                                                        "id" : "0000003549",
+                                                        "__v" : 1
+                                                },
+                                                "cashier" : {
+                                                        "mobile" : null,
+                                                        "digimedCode" : "2023_05_25_11_00_04d8cmqw0f",
+                                                        "deviceTokens" : [ ],
+                                                        "roles" : [
+                                                                {
+                                                                        "approvalLimit" : 0,
+                                                                        "roleGroup" : [ ],
+                                                                        "payDDGroupIds" : [
+                                                                                ""
+                                                                        ],
+                                                                        "widgets" : [
+                                                                                ObjectId("6133d8703471647a3d0d939b"),
+                                                                                ObjectId("6133d8703471647a3d0d939f")
+                                                                        ],
+                                                                        "specialRole" : false,
+                                                                        "_id" : ObjectId("5fa248789bbd94fce4538f59"),
+                                                                        "name" : "Petty Cashier",
+                                                                        "code" : "petty_cashier",
+                                                                        "payDDGroupName" : "",
+                                                                        "createdAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                        "updatedAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                        "__v" : 0
+                                                                },
+                                                                {
+                                                                        "approvalLimit" : 100000,
+                                                                        "roleGroup" : [ ],
+                                                                        "payDDGroupIds" : [
+                                                                                "eae0cd8d-565d-4a8f-8405-b351c55acd86",
+                                                                                "e3079602-0cf4-4279-a87c-78e4d34cabaa",
+                                                                                "66cdf962-f861-477d-9a7c-19fe9206b07a"
+                                                                        ],
+                                                                        "widgets" : [ ],
+                                                                        "specialRole" : false,
+                                                                        "_id" : ObjectId("5fa248789bbd94fce4538f5d"),
+                                                                        "name" : "Specialist",
+                                                                        "code" : "specialist",
+                                                                        "payDDGroupName" : "Group - Specialists",
+                                                                        "createdAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                        "updatedAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                                        "__v" : 0
+                                                                }
+                                                        ],
+                                                        "active" : true,
+                                                        "initialized" : true,
+                                                        "passwordResetRequested" : false,
+                                                        "failedAttempts" : 0,
+                                                        "otpAttempts" : 0,
+                                                        "locked" : false,
+                                                        "digiExEnabled" : true,
+                                                        "digimedEnabled" : true,
+                                                        "isMigrate" : false,
+                                                        "_id" : ObjectId("5fa248b79bbd94fce453a3ad"),
+                                                        "oid" : "b8e93cb4-47e3-4f3a-8bdc-18b0b7b28352",
+                                                        "code" : "99437",
+                                                        "name" : "Jayaneetha Liyanage",
+                                                        "email" : "jayaneetha.liyanage@dbs.dialog.lk",
+                                                        "jobTitle" : "Customer Experience Centre Manager",
+                                                        "division" : "Retail Operations",
+                                                        "department" : {
+                                                                "users" : [ ],
+                                                                "_id" : ObjectId("5fa2487a9bbd94fce453900b"),
+                                                                "name" : "Retail Operations",
+                                                                "code" : "Retail Operations",
+                                                                "createdAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                                "updatedAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                                                "__v" : 0
+                                                        },
+                                                        "createdAt" : ISODate("2020-11-04T06:22:47.991Z"),
+                                                        "updatedAt" : ISODate("2024-02-13T05:35:19Z"),
+                                                        "__v" : 247,
+                                                        "loginMethod" : {
+                                                                "active" : true,
+                                                                "_id" : ObjectId("5ffc55ef24368c18b464693a"),
+                                                                "name" : "Password Login",
+                                                                "code" : "password"
+                                                        },
+                                                        "syncedDate" : ISODate("2024-02-12T20:37:30.569Z")
+                                                },
+                                                "createdAt" : ISODate("2022-11-10T07:35:16Z"),
+                                                "updatedAt" : ISODate("2024-01-30T09:48:10Z"),
+                                                "__v" : 0
+                                        }
+                                }
+                        ],
+                        "REJECTED" : [ ],
+                        "PAID" : [ ],
+                        "REIMBURSED" : [ ]
+                }
+        },
+        "multipleCostCenters" : [ ],
+        "rejectedPayments" : [ ],
+        "draft" : false,
+        "createdBy" : "DigiExUser",
+        "isDebit" : true,
+        "reimbursed" : false,
+        "comments" : [
+                {
+                        "user" : {
+                                "mobile" : null,
+                                "digimedCode" : "2023_05_25_11_00_04d8cmqw0f",
+                                "deviceTokens" : [ ],
+                                "jwtTokens" : [
+                                        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmEyNDhiNzliYmQ5NGZjZTQ1M2EzYWQiLCJjb2RlIjoiOTk0MzciLCJvaWQiOiJiOGU5M2NiNC00N2UzLTRmM2EtOGJkYy0xOGIwYjdiMjgzNTIiLCJkaWdpbWVkQ29kZSI6IjIwMjNfMDVfMjVfMTFfMDBfMDRkOGNtcXcwZiIsInBhc3N3b3JkUmVzZXQiOmZhbHNlLCJ0ZW5hbnQiOiJkaWFsb2ciLCJpYXQiOjE3MDc4MDI1MTksImV4cCI6MTcwNzg4ODkxOX0._6eEDtpexPTLqjSGzoxEy0WrOkU7S-LWJbBhTQ2VnKs"
+                                ],
+                                "roles" : [
+                                        ObjectId("5fa248789bbd94fce4538f59"),
+                                        ObjectId("5fa248789bbd94fce4538f5d")
+                                ],
+                                "active" : true,
+                                "initialized" : true,
+                                "passwordResetRequested" : false,
+                                "failedAttempts" : 0,
+                                "otpAttempts" : 0,
+                                "locked" : false,
+                                "digiExEnabled" : true,
+                                "digimedEnabled" : true,
+                                "isMigrate" : false,
+                                "_id" : ObjectId("5fa248b79bbd94fce453a3ad"),
+                                "oid" : "b8e93cb4-47e3-4f3a-8bdc-18b0b7b28352",
+                                "code" : "99437",
+                                "name" : "Jayaneetha Liyanage",
+                                "email" : "jayaneetha.liyanage@dbs.dialog.lk",
+                                "jobTitle" : "Customer Experience Centre Manager",
+                                "division" : "Retail Operations",
+                                "department" : ObjectId("5fa2487a9bbd94fce453900b"),
+                                "createdAt" : ISODate("2020-11-04T06:22:47.991Z"),
+                                "updatedAt" : ISODate("2024-02-13T05:35:19Z"),
+                                "__v" : 247,
+                                "loginMethod" : ObjectId("5ffc55ef24368c18b464693a"),
+                                "syncedDate" : ISODate("2024-02-12T20:37:30.569Z")
+                        },
+                        "comment" : "OK / BM / RM Travel expenses ",
+                        "createdAt" : ISODate("2024-02-13T07:56:15.438Z")
+                },
+                {
+                        "user" : {
+                                "mobile" : null,
+                                "digimedCode" : "2023_05_25_11_00_04d8cmqw0f",
+                                "deviceTokens" : [ ],
+                                "jwtTokens" : [
+                                        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmEyNDhiNzliYmQ5NGZjZTQ1M2EzYWQiLCJjb2RlIjoiOTk0MzciLCJvaWQiOiJiOGU5M2NiNC00N2UzLTRmM2EtOGJkYy0xOGIwYjdiMjgzNTIiLCJkaWdpbWVkQ29kZSI6IjIwMjNfMDVfMjVfMTFfMDBfMDRkOGNtcXcwZiIsInBhc3N3b3JkUmVzZXQiOmZhbHNlLCJ0ZW5hbnQiOiJkaWFsb2ciLCJpYXQiOjE3MDc4MDI1MTksImV4cCI6MTcwNzg4ODkxOX0._6eEDtpexPTLqjSGzoxEy0WrOkU7S-LWJbBhTQ2VnKs"
+                                ],
+                                "roles" : [
+                                        {
+                                                "approvalLimit" : 0,
+                                                "roleGroup" : [ ],
+                                                "payDDGroupIds" : [
+                                                        ""
+                                                ],
+                                                "widgets" : [
+                                                        ObjectId("6133d8703471647a3d0d939b"),
+                                                        ObjectId("6133d8703471647a3d0d939f")
+                                                ],
+                                                "specialRole" : false,
+                                                "_id" : ObjectId("5fa248789bbd94fce4538f59"),
+                                                "name" : "Petty Cashier",
+                                                "code" : "petty_cashier",
+                                                "payDDGroupName" : "",
+                                                "createdAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                "updatedAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                "__v" : 0
+                                        },
+                                        {
+                                                "approvalLimit" : 100000,
+                                                "roleGroup" : [ ],
+                                                "payDDGroupIds" : [
+                                                        "eae0cd8d-565d-4a8f-8405-b351c55acd86",
+                                                        "e3079602-0cf4-4279-a87c-78e4d34cabaa",
+                                                        "66cdf962-f861-477d-9a7c-19fe9206b07a"
+                                                ],
+                                                "widgets" : [ ],
+                                                "specialRole" : false,
+                                                "_id" : ObjectId("5fa248789bbd94fce4538f5d"),
+                                                "name" : "Specialist",
+                                                "code" : "specialist",
+                                                "payDDGroupName" : "Group - Specialists",
+                                                "createdAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                "updatedAt" : ISODate("2020-11-04T06:21:44.396Z"),
+                                                "__v" : 0
+                                        }
+                                ],
+                                "active" : true,
+                                "initialized" : true,
+                                "passwordResetRequested" : false,
+                                "failedAttempts" : 0,
+                                "otpAttempts" : 0,
+                                "locked" : false,
+                                "digiExEnabled" : true,
+                                "digimedEnabled" : true,
+                                "isMigrate" : false,
+                                "_id" : ObjectId("5fa248b79bbd94fce453a3ad"),
+                                "oid" : "b8e93cb4-47e3-4f3a-8bdc-18b0b7b28352",
+                                "code" : "99437",
+                                "name" : "Jayaneetha Liyanage",
+                                "email" : "jayaneetha.liyanage@dbs.dialog.lk",
+                                "jobTitle" : "Customer Experience Centre Manager",
+                                "division" : "Retail Operations",
+                                "department" : {
+                                        "users" : [ ],
+                                        "_id" : ObjectId("5fa2487a9bbd94fce453900b"),
+                                        "name" : "Retail Operations",
+                                        "code" : "Retail Operations",
+                                        "createdAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                        "updatedAt" : ISODate("2020-11-04T06:21:47.024Z"),
+                                        "__v" : 0
+                                },
+                                "createdAt" : ISODate("2020-11-04T06:22:47.991Z"),
+                                "updatedAt" : ISODate("2024-02-13T05:35:19Z"),
+                                "__v" : 247,
+                                "loginMethod" : {
+                                        "active" : true,
+                                        "_id" : ObjectId("5ffc55ef24368c18b464693a"),
+                                        "name" : "Password Login",
+                                        "code" : "password"
+                                },
+                                "syncedDate" : ISODate("2024-02-12T20:37:30.569Z")
+                        },
+                        "comment" : "ok",
+                        "createdAt" : ISODate("2024-02-13T07:59:34.785Z")
+                }
+        ],
+        "rolesMigrated" : false,
+        "bulkPaymentLines" : [ ],
+        "sapProcessing" : false,
+        "requestCategory" : {
+                "_id" : ObjectId("5fa248779bbd94fce4538f40"),
+                "name" : "Petty Cash",
+                "code" : "petty_cash",
+                "displayType" : "mobile"
+        },
+        "expenseCategory" : {
+                "_id" : ObjectId("5fa2487a9bbd94fce4538f8e"),
+                "name" : "TRAVEL/FUEL EXPENSES",
+                "code" : "TRAVEL/FUEL EXPENSES"
+        },
+        "description" : "Travel Expences",
+        "currency" : {
+                "_id" : ObjectId("5fa248789bbd94fce4538f4d"),
+                "name" : "LKR",
+                "code" : "LKR",
+                "createdAt" : "2020-11-04T06:21:44.110Z",
+                "updatedAt" : "2020-11-04T06:21:44.110Z",
+                "__v" : 0
+        },
+        "entity" : {
+                "_id" : ObjectId("5fa248789bbd94fce4538f48"),
+                "name" : "DAP",
+                "code" : "LK10",
+                "createdAt" : ISODate("2020-11-04T06:21:44.007Z"),
+                "updatedAt" : ISODate("2020-11-04T06:21:44.007Z"),
+                "__v" : 0,
+                "transactionNo" : "23"
+        },
+        "vendor" : null,
+        "taxCode" : null,
+        "costCenter" : "DCSU0201",
+        "internalOrder" : "-",
+        "remarks" : "Highway Expences",
+        "staffAdvanceCategory" : null,
+        "settlementDate" : null,
+        "user" : {
+                "mobile" : null,
+                "digimedCode" : null,
+                "deviceTokens" : [ ],
+                "jwtTokens" : [
+                        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmEyNDhiZTliYmQ5NGZjZTQ1M2E3OTUiLCJjb2RlIjoiMTAzMTc0Iiwib2lkIjoiZTYxYjNiNDktNzgzZi00YzRjLWJmZmMtOGM0YWYyYjcwYjFiIiwiZGlnaW1lZENvZGUiOm51bGwsInBhc3N3b3JkUmVzZXQiOmZhbHNlLCJ0ZW5hbnQiOiJkaWFsb2ciLCJpYXQiOjE3MDc3OTc1NzAsImV4cCI6MTcwNzg4Mzk3MH0.qpWzCEL030erKt8sUEtDIukTswOnvGfiFXkEd-yFSj4"
+                ],
+                "roles" : [
+                        ObjectId("5fa248789bbd94fce4538f58")
+                ],
+                "active" : true,
+                "initialized" : true,
+                "passwordResetRequested" : false,
+                "failedAttempts" : 0,
+                "otpAttempts" : 0,
+                "locked" : false,
+                "digiExEnabled" : true,
+                "digimedEnabled" : false,
+                "isMigrate" : false,
+                "_id" : ObjectId("5fa248be9bbd94fce453a795"),
+                "oid" : "e61b3b49-783f-4c4c-bffc-8c4af2b70b1b",
+                "code" : "103174",
+                "name" : "Manuja Pansara",
+                "email" : "manuja.pansara@dbs.dialog.lk",
+                "jobTitle" : "Customer Experience Associate",
+                "division" : "Retail Operations",
+                "department" : ObjectId("5fa2487a9bbd94fce453900b"),
+                "createdAt" : ISODate("2020-11-04T06:22:54.084Z"),
+                "updatedAt" : ISODate("2024-02-13T04:12:50Z"),
+                "__v" : 129,
+                "loginMethod" : ObjectId("5ffc55ef24368c18b464693a"),
+                "syncedDate" : ISODate("2024-02-12T20:37:06.494Z")
+        },
+        "status" : "APPROVED",
+        "defaultApprover" : {
+                "_id" : ObjectId("5fa248b79bbd94fce453a3ad"),
+                "name" : "Jayaneetha Liyanage",
+                "code" : "99437",
+                "roles" : [
+                        {
+                                "_id" : ObjectId("5fa248789bbd94fce4538f59"),
+                                "name" : "Petty Cashier",
+                                "code" : "petty_cashier",
+                                "widgets" : [
+                                        ObjectId("6133d8703471647a3d0d939b"),
+                                        ObjectId("6133d8703471647a3d0d939f")
+                                ],
+                                "roleType" : null,
+                                "specialRole" : false
+                        },
+                        {
+                                "_id" : ObjectId("5fa248789bbd94fce4538f5d"),
+                                "name" : "Specialist",
+                                "code" : "specialist",
+                                "widgets" : [ ],
+                                "roleType" : null,
+                                "specialRole" : false
+                        }
+                ],
+                "email" : "jayaneetha.liyanage@dbs.dialog.lk"
+        },
+        "requestRef" : "20240213000036",
+        "createdAt" : ISODate("2024-02-13T07:20:16Z"),
+        "updatedAt" : ISODate("2024-02-14T06:49:12Z"),
+        "__v" : 0,
+        "glCode" : null
+}
